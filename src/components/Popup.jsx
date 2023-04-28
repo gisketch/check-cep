@@ -88,7 +88,7 @@ const Popup = ({ show, handleClose, title, body, scores, averageScore }) => {
       
       <h4>Average score: <strong>{averageScore.toFixed(2)}</strong> / 100 {renderAvgBadge(averageScore)}</h4> 
       <p>
-        <strong>Report:</strong> {passedSubjects.length} passed, {failedSubjects.length} failed <span className='criteria-text'>(must have 0 failed subjects and an average of 65 to pass)</span>
+        <strong>Report:</strong> {passedSubjects.length} passed, {failedSubjects.length} failed <span className='criteria-text'>(must have 0 failed subject and an average of 65 to pass)</span>
       </p>
       {/* {failedSubjects.length > 0 && (
         <p>
