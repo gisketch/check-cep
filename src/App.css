@@ -40,3 +40,16 @@
 .read-the-docs {
   color: #888;
 }
+
+.criteria-text {
+  font-weight: 300 !important;
+  font-style: italic;
+}
+
+.pass {
+  color: #3cb13cd7;
+}
+
+.fail {
+  color: #c72828dc;
+}
