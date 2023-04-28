@@ -90,11 +90,11 @@ const Popup = ({ show, handleClose, title, body, scores, averageScore }) => {
       <p>
         <strong>Report:</strong> {passedSubjects.length} passed, {failedSubjects.length} failed <span className='criteria-text'>(must have 0 failed subjects and an average of 65 to pass)</span>
       </p>
-      {failedSubjects.length > 0 && (
+      {/* {failedSubjects.length > 0 && (
         <p>
           <strong>Recommendation:</strong> {getRecommendations()}
         </p>
-      )}
+      )} */}
       </Modal.Body>
 
       <Modal.Footer>
