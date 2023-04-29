@@ -87,7 +87,8 @@ function App() {
                 Made by{' '}
                 <a href="https://gisketch.com">Ghegi Jimenez</a> (2023) with{' '}
                 <a href="https://reactjs.org/">React JS</a> and{' '}
-                <a href="https://getbootstrap.com/">Bootstrap</a>
+                <a href="https://getbootstrap.com/">Bootstrap</a>. Code is{' '}
+                <a href="https://github.com/gisketch/check-cep">open-source.</a>
               </div>
             </div>
           </div>
